@@ -35,7 +35,7 @@
 
 ## Properties chart
 
-![Measurement Scale Properties Table](MeasurementScaleProperties.PNG)
+![Measurement Scale Properties Table](img/MeasurementScaleProperties.PNG)
 
 
 
