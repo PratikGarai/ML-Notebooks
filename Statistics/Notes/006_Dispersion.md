@@ -19,4 +19,4 @@ $$ Sample Variance (S^2) = \sum_{i=1}^n \frac{(x_i-\bar{x})^2}{n}$$
 
 ## Comparison
 
-![Comparison]("./img/StandardDeviationComparison.webp")
+![Comparison](./img/StandardDeviationComparison.webp)
