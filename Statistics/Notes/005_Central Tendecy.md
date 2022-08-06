@@ -23,7 +23,6 @@ Refers to the measure used to determinethe center the distribution of the data.
     - Not sensitive to outliers (roubust)
 3. Mode
     - Most frequent element
-    - Not sensitive to outliers as well
 
 ## Relationship between central tendencies
 $$ Mean - Mode = 3 * (Mean - Median) $$
