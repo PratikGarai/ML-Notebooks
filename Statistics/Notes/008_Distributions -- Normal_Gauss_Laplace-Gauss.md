@@ -19,17 +19,17 @@ A sample size increases, the data distribution of the sample usually converges (
 
 Given a value ($x$), how many standard deviations away from the mean of the distribution$(\mu)$ it is. 
 
-$$ Z-Score = \frac{x_i-\mu}{\sigma}$$ 
+$$ZScore = \frac{x_i-\mu}{\sigma}$$ 
 
 Example 1:- <br />
 Distribution with : Mean = 4 ; Standard Deviation = 1. Find the Z-Score for 4.75. <br />
-Sol. $$Z-Score = \frac{4.75-4}{1} = 0.75 \sigma$$
+Sol. $$ZScore = \frac{4.75-4}{1} = 0.75 \sigma$$
 
 **Note:** The value (4.75) is on the right of the mean, since the Z-Score is positive. If the Z-Score was negative, the value would be on the left side of the mean.
 
 Example 2:- <br />
 Distribution with : Mean = 4 ; Standard Deviation = 1. Find the Z-Score for 3.75. <br />
-Sol. $$Z-Score = \frac{3.75-4}{1} = -0.25 \sigma$$
+Sol. $$ZScore = \frac{3.75-4}{1} = -0.25 \sigma$$
 
 ## Standard Normal Distribution
 
@@ -44,3 +44,9 @@ Take every value in a distribution and find its Z-Score. This new array of outpu
 ### Appications in ML
 
 **Standardization** is used to scale down all features (column wise data) into a smaller range in a propotional manner so that the decisions are not skewed due to numerical scales. For example : If the dataset has income in 1000s range and age in 10s range, the decision making will be affected highly due to income, as compared to age. However, if we standardize both all the features, both will be reduced to a common numerical scale. This will make both income and age to have similar weightage in the decision making process.
+
+## Normalzation
+
+Scaling between a given range lower and higher values. Example : (-1 to 1), (0 to 1), etc based on our choice and use case.
+
+$$ NomalizedValue = \frac{x_i-min}{max-min}$$ 
