@@ -3,12 +3,12 @@
 ## Population $(N)$
 The overall data.
 
-$$ Population Mean (\mu) = \sum_{i=1}^{N} \frac{x_i}{N}$$
+$$Population Mean (\mu) = \sum_{i=1}^{N} \frac{x_i}{N}$$
 
 ## Sample $(n)$
 A subset of the data (without repitition).
 
-$$ Sample Mean (\bar{x}) = \sum_{i=1}^{n} \frac{x_i}{n}$$
+$$Sample Mean (\bar{x}) = \sum_{i=1}^{n} \frac{x_i}{n}$$
 
 
 # Central Tendency
@@ -25,4 +25,4 @@ Refers to the measure used to determinethe center the distribution of the data.
     - Most frequent element
 
 ## Relationship between central tendencies
-$$ Mean - Mode = 3 * (Mean - Median) $$
+$$Mean - Mode = 3 * (Mean - Median)$$
