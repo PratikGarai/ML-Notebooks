@@ -45,8 +45,48 @@ Take every value in a distribution and find its Z-Score. This new array of outpu
 
 **Standardization** is used to scale down all features (column wise data) into a smaller range in a propotional manner so that the decisions are not skewed due to numerical scales. For example : If the dataset has income in 1000s range and age in 10s range, the decision making will be affected highly due to income, as compared to age. However, if we standardize both all the features, both will be reduced to a common numerical scale. This will make both income and age to have similar weightage in the decision making process.
 
-## Normalzation
+## Normalization
 
 Scaling between a given range lower and higher values. Example : (-1 to 1), (0 to 1), etc based on our choice and use case.
 
 $$ NomalizedValue = \frac{x_i-min}{max-min}$$ 
+
+## Example
+
+### Question1
+
+In an ODI series, these are the given data : 
+
+<table>
+    <thead>
+        <th>Parameter \ Year</th>
+        <th>2021</th>
+        <th>2020</th>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Scores Average</td>
+            <td>250</td>
+            <td>260</td>
+        </tr>
+        <tr>
+            <td>Standard Deviation</td>
+            <td>10</td>
+            <td>12</td>
+        </tr>
+        <tr>
+            <td>Player 1 Score</td>
+            <td>240</td>
+            <td>245</td>
+        </tr>
+</table>
+
+Comparing both years, which year did Player1 perform better compared to other players?
+
+### Solution1
+
+$ZScore_{2021} = \frac{240-250}{10} = -1$ <br />
+$ZScore_{2020} = \frac{245-260}{12} = -1.25$ <br />
+
+As it is visible, Z-Score of 2021 > Z-Score of 2020. So, Player1 was further back from the mean in 2020 compared to 2021. So, even though Player1 scores lesser in 2021, they performed better.
+
