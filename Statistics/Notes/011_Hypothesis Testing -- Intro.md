@@ -1,4 +1,4 @@
-# Hypothesis Testing
+# Hypothesis Testing (Intro)
 
 ## Steps
 
@@ -29,9 +29,10 @@ So, if we take 95% data starting from the mean, it will cover a region like the 
 
  ![95 Percent Coin Toss](./img/CoinTossDistribution95TwoTail.png)
 
- Here, the red part covers 95% AUC while the white regions cover 2.5% area AUC on both sides. If the value lies inside this region, our Hypothesis passed, else Hypothesis failed.
+ Here, the red part covers 95% AUC while the white regions cover 2.5% area AUC on both sides. If the value lies inside this region, our Null Hypothesis passed, else Null Hypothesis rejected.
 
 
 ## Points to Remember
 
 1. Significance Value is defined by a domain expert. So, based on domain expert's input of significance value, we decide if our hypothesis is right or wrong.
+2. Domain expert sets Sigificance Value -> We get Confidence Interval -> We check if mean is within Interval -> Hypothesis Accepted or Rejected.
