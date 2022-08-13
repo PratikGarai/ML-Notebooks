@@ -29,11 +29,11 @@ Occurence of one event is affected by the other. Example : <br />
 
 If Event A and B are mutually exclusive, 
 
-$$ P (A \cup B) = P(A) + P(B) $$
+$$P(A \cup B) = P(A) + P(B)$$
 
 For non-exclusive case,
 
-$$ P (A \cup B) = P(A) + P(B) - P(A \cap B) $$
+$$P(A \cup B) = P(A) + P(B) - P(A \cap B)$$
 
 ### Questions
 
