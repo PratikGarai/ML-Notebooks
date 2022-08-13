@@ -39,28 +39,28 @@ $$P(A \cup B) = P(A) + P(B) - P(A \cap B)$$
 
 1. What is the probability of getting head or tail? <br />
 This is a case of mutually exclusive events because coin toss can either give Head or Tail at a time. So, 
-$$ P(H \cup T) = P(H) + P(T) = \frac{1}{2} + \frac{1}{2} = 1 $$
+$$P(H \cup T) = P(H) + P(T) = \frac{1}{2} + \frac{1}{2} = 1$$
 
 2. What is the probability of getting a Queen or Heart? <br />
 This is a case of non mutually exclusive events because both can occur simultaneouly if the card is a Queen of Hearts. So,
-$$ P(Q \cup H) = P(Q) + P(H) - P(Q \cap H) = \frac{4}{52} + \frac{13}{52} - \frac{1}{52} = \frac{16}{52}  = \frac{4}{13} $$
+$$P(Q \cup H) = P(Q) + P(H) - P(Q \cap H) = \frac{4}{52} + \frac{13}{52} - \frac{1}{52} = \frac{16}{52}  = \frac{4}{13}$$
 
 ## Multiplication Rule (Probability AND)
 
 If Event A and B are independent, 
 
-$$ P (A \cap B) = P(A) * P(B) $$
+$$P(A \cap B) = P(A) * P(B)$$
 
 
 If event A is dependent on B,
 
-$$ P(A \cap B) = P(B) * P (A / B) $$
+$$P(A \cap B) = P(B) * P (A / B)$$
 P(A/B)  = Probability of A occuring given B has already occured.
 
 ### Questions
 
 1. What is the probability of getting a 5 after getting a 4 in dice? (Independent) <br />
-$$ P(5 \cap 4) = P(5) * P(4) = \frac{1}{6} * \frac{1}{6} = \frac{1}{36} $$
+$$P(5 \cap 4) = P(5) * P(4) = \frac{1}{6} * \frac{1}{6} = \frac{1}{36}$$
 
 2. What is the probability of drawing a queen and then an ace from a deck of cards?
-$$ P(A \cap Q) = P(Q) * P(A / Q) = \frac{4}{52} * \frac{4}{51} = \frac{4}{663} $$
+$$P(A \cap Q) = P(Q) * P(A / Q) = \frac{4}{52} * \frac{4}{51} = \frac{4}{663}$$
