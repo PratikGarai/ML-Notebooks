@@ -99,6 +99,8 @@ Given a distribution with Mean( $\mu$ ) = 4 and Standard Deviation ( $\sigma$ ) 
 $ZScore_{4.25} = \frac{4.25-4.0}{1} = 0.25$ <br />
 
 Now, we need all values above $4 + .25 * SD = 4 + 0.25 = 4.25$. Therefore, we need area of curve in $4.25 \lt x \lt \infty$. This is equal to 
-$$ Result = 1 - \{ Area(-\infty \lt x \lt 4) + Area(4 \lt x \lt 4.25)\} = 1 - \{ 0.5 + Area(4 \lt x \lt 4.25)\} = 1 - \{ 0.5 + 0.0987\} = 1 - 0.5987 = 0.4013 $$
+$$1 - \{ Area(-\infty \lt x \lt 4) + Area(4 \lt x \lt 4.25)\}$$
+$$1 - \{ 0.5 + Area(4 \lt x \lt 4.25)\}$$
+$$1 - \{ 0.5 + 0.0987\} = 1 - 0.5987 = 0.4013 $$
 
 So, 40.13% of data is above 4.25.
